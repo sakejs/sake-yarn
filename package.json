@@ -1,0 +1,34 @@
+{
+  "name": "cake-yarn",
+  "version": "0.0.0",
+  "description": "Adds yarn command tasks to your Cakefile.",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "js:next": "lib/index.mjs",
+  "files": [
+    "lib/"
+  ],
+  "dependencies": {
+    "yarn": "0.21.3"
+  },
+  "devDependencies": {
+    "cake-publish": "^0.1.1",
+    "cake-test": "0.1.0",
+    "cake-version": "^0.1.3",
+    "shortcake": "1.2.5"
+  },
+  "scripts": {
+    "prepublish": "cake yarn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeekay/cake-yarn.git"
+  },
+  "keywords": [],
+  "author": "Zach Kelling <zk@monoid.io> (http://zeekay.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeekay/cake-yarn/issues"
+  },
+  "homepage": "https://github.com/zeekay/cake-yarn#readme"
+}
