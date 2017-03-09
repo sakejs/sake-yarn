@@ -16,7 +16,7 @@
     "shortcake": "1.2.5"
   },
   "scripts": {
-    "prepublish": "cake yarn"
+    "prepublish": "cake build"
   },
   "repository": {
     "type": "git",
