@@ -1,12 +1,13 @@
-module.exports = (opts = {}) ->
+export default yarn = (opts = {}) ->
   task 'init', 'yarn init', ->
-    exec "node_modules/.bin/yarn init"
+    exec "yarn init"
 
   task 'install', 'yarn install', ->
-    exec "node_modules/.bin/yarn install #{args}"
+    exec "yarn install"
 
-  task 'add', 'yarn install', ->
-    exec "node_modules/.bin/yarn add #{args}"
+  task 'add', 'yarn add dep', (opts) ->
+    console.log opts
+    exec "yarn add #{opts.args}"
 
-  task 'remove', 'yarn install', ->
-    exec "node_modules/.bin/yarn add #{args}"
+  task 'remove', 'yarn remove dep', (opts) ->
+    exec "yarn remove #{opts.args}"
