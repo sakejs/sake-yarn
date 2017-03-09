@@ -1,6 +1,6 @@
 {
   "name": "cake-yarn",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds yarn command tasks to your Cakefile.",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
