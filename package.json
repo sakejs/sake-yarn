@@ -9,10 +9,10 @@
     "lib/"
   ],
   "devDependencies": {
+    "cake-bundle": "0.1.2",
     "cake-publish": "^0.1.1",
     "cake-test": "0.1.0",
     "cake-version": "^0.1.3",
-    "handroll": "0.3.2",
     "shortcake": "1.2.5"
   },
   "scripts": {
