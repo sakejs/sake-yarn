@@ -1,8 +1,8 @@
 exec = require 'executive'
 
-describe 'cake-yarn', ->
+describe 'sake-yarn', ->
   it 'should add yarn commands', ->
-    {stdout} = yield exec 'cake', cwd: __dirname
+    {stdout} = yield exec 'sake', cwd: __dirname
     stdout.should.contain 'install'
     stdout.should.contain 'add'
     stdout.should.contain 'init'
