@@ -5,7 +5,9 @@ use 'cake-publish'
 use 'cake-test'
 use 'cake-version'
 
-use require './'
+try
+  use require './'
+catch err
 
 task 'build', 'build project', ->
   bundle.write entry: 'src/index.coffee'
