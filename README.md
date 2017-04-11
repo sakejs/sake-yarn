@@ -1,5 +1,4 @@
 # sake-yarn
-Add yarn related tasks to your Sakefile.
 
 [![npm][npm-img]][npm-url]
 [![build][build-img]][build-url]
@@ -7,6 +6,8 @@ Add yarn related tasks to your Sakefile.
 [![downloads][downloads-img]][downloads-url]
 [![license][license-img]][license-url]
 [![chat][chat-img]][chat-url]
+
+Add [Yarn][yarn] related tasks to your Sakefile.
 
 ## Install
 ```bash
@@ -22,6 +23,8 @@ use('sake-yarn')
 
 ## License
 [BSD][license-url]
+
+[yarn]:             https://yarnpkg.com
 
 [build-img]:        https://img.shields.io/travis/sakejs/sake-yarn.svg
 [build-url]:        https://travis-ci.org/sakejs/sake-yarn
