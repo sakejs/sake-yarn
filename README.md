@@ -1,31 +1,39 @@
-# cake-yarn [![NPM version][npm-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url] [![Dependency Status][dependency-img]][dependency-url] [![Gitter chat][gitter-img]][gitter-url]
-Adds yarn related tasks to your Cakefile.
+# sake-yarn
+Add yarn related tasks to your Sakefile.
+
+[![npm][npm-img]][npm-url]
+[![build][build-img]][build-url]
+[![dependencies][dependencies-img]][dependencies-url]
+[![downloads][downloads-img]][downloads-url]
+[![license][license-img]][license-url]
+[![chat][chat-img]][chat-url]
 
 ## Install
 ```bash
-$ npm install cake-yarn
+$ npm install sake-yarn --save-dev
 ```
 
 ## Usage
-```coffee
-require 'shortcake'
+In your Sakefile:
 
-use 'cake-yarn`'
+```javascript
+use('sake-yarn')
 ```
 
-[travis-img]:     https://img.shields.io/travis/zeekay/cake-yarn.svg
-[travis-url]:     https://travis-ci.org/zeekay/cake-yarn
-[coveralls-img]:  https://coveralls.io/repos/zeekay/cake-yarn/badge.svg?branch=master&service=github
-[coveralls-url]:  https://coveralls.io/github/zeekay/cake-yarn?branch=master
-[dependency-url]: https://david-dm.org/zeekay/cake-yarn
-[dependency-img]: https://david-dm.org/zeekay/cake-yarn.svg
-[npm-img]:        https://img.shields.io/npm/v/cake-yarn.svg
-[npm-url]:        https://www.npmjs.com/package/cake-yarn
-[gitter-img]:     https://badges.gitter.im/join-chat.svg
-[gitter-url]:     https://gitter.im/zeekay/hi
+## License
+[BSD][license-url]
 
-<!-- not used -->
-[downloads-img]:     https://img.shields.io/npm/dm/cake-yarn.svg
-[downloads-url]:     http://badge.fury.io/js/cake-yarn
-[devdependency-img]: https://david-dm.org/zeekay/cake-yarn/dev-status.svg
-[devdependency-url]: https://david-dm.org/zeekay/cake-yarn#info=devDependencies
+[build-img]:        https://img.shields.io/travis/sakejs/sake-yarn.svg
+[build-url]:        https://travis-ci.org/sakejs/sake-yarn
+[chat-img]:         https://badges.gitter.im/join-chat.svg
+[chat-url]:         https://gitter.im/sakejs/hi
+[coverage-img]:     https://coveralls.io/repos/sakejs/sake-yarn/badge.svg?branch=master&service=github
+[coverage-url]:     https://coveralls.io/github/sakejs/sake-yarn?branch=master
+[dependencies-img]: https://david-dm.org/sakejs/sake-yarn.svg
+[dependencies-url]: https://david-dm.org/sakejs/sake-yarn
+[downloads-img]:    https://img.shields.io/npm/dm/sake-yarn.svg
+[downloads-url]:    http://badge.fury.io/js/sake-yarn
+[license-img]:      https://img.shields.io/npm/l/sake-yarn.svg
+[license-url]:      https://github.com/sakejs/sake-yarn/blob/master/LICENSE
+[npm-img]:          https://img.shields.io/npm/v/sake-yarn.svg
+[npm-url]:          https://www.npmjs.com/package/sake-yarn
