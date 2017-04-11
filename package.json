@@ -1,29 +1,37 @@
 {
   "name": "sake-yarn",
   "version": "0.1.1",
-  "description": "Adds yarn command tasks to your sakefile.",
+  "description": "Add `yarn` tasks to your Sakefile",
   "main": "lib/sake-yarn.js",
   "module": "lib/sake-yarn.mjs",
-  "js:next": "lib/sake-yarn.mjs",
   "files": [
     "lib/",
     "src"
   ],
   "devDependencies": {
     "sake-bundle": "0.1.2",
+    "sake-cli": "0.3.2",
+    "sake-core": "1.2.5",
     "sake-publish": "^0.1.1",
     "sake-test": "0.1.0",
-    "sake-version": "^0.1.3",
-    "sake-core": "1.2.5"
+    "sake-version": "^0.1.3"
   },
   "scripts": {
-    "prepublishOnly": "sake build"
+    "build": "sake build",
+    "prepublishOnly": "sake build",
+    "pretest": "sake build",
+    "test": "sake test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sakejs/sake-yarn.git"
   },
-  "keywords": [],
+  "keywords": [
+    "npm",
+    "sake",
+    "tasks",
+    "yarn"
+  ],
   "author": "Hanzo, Inc. <hi@hanzo.io",
   "license": "BSD",
   "bugs": {
