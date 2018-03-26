@@ -6,17 +6,17 @@
   "module": "lib/sake-yarn.mjs",
   "files": [
     "lib/",
-    "src"
+    "src/"
   ],
   "devDependencies": {
-    "coffee-script": "1.12.7",
-    "sake-bundle": "0.6.7",
-    "sake-cli": "0.6.5",
-    "sake-core": "1.6.2",
-    "sake-outdated": "0.2.2",
-    "sake-publish": "0.1.17",
-    "sake-test": "0.2.1",
-    "sake-version": "0.1.19"
+    "coffeescript": "^1.12.7",
+    "sake-bundle": "^0.6.7",
+    "sake-cli": "^0.6.5",
+    "sake-core": "^1.6.2",
+    "sake-outdated": "^0.2.2",
+    "sake-publish": "^0.1.17",
+    "sake-test": "^0.2.1",
+    "sake-version": "^0.1.19"
   },
   "scripts": {
     "build": "sake build",
